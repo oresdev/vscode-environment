@@ -1,0 +1,75 @@
+{
+  "breadcrumbs.enabled": false,
+
+  "editor.minimap.enabled": false,
+
+  "editor.padding.top": 11,
+  "editor.padding.bottom": 11,
+
+  "editor.tabSize": 4,
+
+  "editor.wordWrap": "on",
+
+  "editor.cursorBlinking": "solid",
+
+  "editor.fontFamily": "'JetBrains Mono', 'Operator Mono SSm Lig', 'Fira Code', 'Cascadia Code', Consolas, monospace",
+
+  "editor.fontWeight": 200,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 24,
+
+  "editor.fontLigatures": true,
+  "editor.renderControlCharacters": false,
+
+  "editor.formatOnSave": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "explorer.confirmDelete": false,
+
+  "explorer.confirmDragAndDrop": false,
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "go.useLanguageServer": true,
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": true
+  },
+
+  "go.toolsManagement.autoUpdate": true,
+
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+
+  "git.confirmSync": false,
+
+  "git.enableSmartCommit": true,
+
+  "remote.SSH.remotePlatform": {
+    "HK": "linux"
+  },
+
+  "workbench.tree.indent": 12,
+
+  "workbench.startupEditor": "none",
+
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+
+  "workbench.colorTheme": "Material Theme"
+}
